@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoatVote</title>
+    <link rel="icon" href="./favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Vote for the GOAT</h1>
+
+        <div class="vote-buttons">
+            <button id="vote-mj" class="vote-button">Vote for Michael Jordan</button>
+            <button id="vote-lebron" class="vote-button">Vote for LeBron James</button>
+        </div>
+
+        <div class="vote-counts">
+            <div class="vote-count">
+                <h2>Michael Jordan</h2>
+                <img class="mj-image" src="./MichaelJordanImage.jpeg" />
+                <p id="count-mj"></p>
+            </div>
+            <div class="vote-count">
+                <h2>LeBron James</h2>
+                <img class="lebron-image" src="./LeBronSunshineImage.jpeg" />
+                <p id="count-lebron"></p>
+            </div>
+        </div>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <h2>View the source code on my <a href="#">GitHub</a>!</h2>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

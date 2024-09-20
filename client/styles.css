@@ -1,0 +1,110 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.vote-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.vote-button {
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 220px;
+}
+
+#vote-mj {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+#vote-mj:hover {
+    background-color: #1c5980;
+}
+
+#vote-lebron {
+    background-color: #c0392b;
+    color: #fff;
+}
+
+#vote-lebron:hover {
+    background-color: #8e2a21;
+}
+
+.vote-counts {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.vote-count {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.vote-count h2 {
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+.vote-count p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #16a085;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.message.success {
+    color: #27ae60;
+}
+
+.message.error {
+    color: #c0392b;
+}
+
+.mj-image {
+    width: 100px;
+}
+
+.lebron-image {
+    width: 100px;
+}

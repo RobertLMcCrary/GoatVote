@@ -1,0 +1,23 @@
+### Cast a Vote for Michael Jordan (MJ)
+POST http://localhost:5001/api/votes/mj
+Content-Type: application/json
+
+{
+  "candidate": "MJ"
+}
+
+### Cast a Vote for LeBron James (LeBron)
+POST http://localhost:5001/api/votes/lebron
+Content-Type: application/json
+
+{
+  "candidate": "Lebron"
+}
+
+### Retrieve mj votes
+GET http://localhost:5001/api/votes/mj
+Content-Type: application/json
+
+### Retrieve lebron votes
+GET http://localhost:5001/api/votes/lebron
+Content-Type: application/json
