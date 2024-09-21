@@ -1,7 +1,7 @@
 // script.js
 
 // API Base URL
-const API_BASE_URL = 'http://localhost:5001/api/votes'; // Adjust the port if different
+const API_BASE_URL = "http://54.204.148.244:5001/api/votes"
 
 // DOM Elements
 const voteMjButton = document.getElementById('vote-mj');
