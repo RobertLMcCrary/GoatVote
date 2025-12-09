@@ -126,11 +126,10 @@ export default function Home() {
 
             {message && (
                 <div
-                    className={`mt-6 text-lg ${
-                        message.includes('already')
-                            ? 'text-red-600'
-                            : 'text-green-600'
-                    }`}
+                    className={`mt-6 text-lg ${message.includes('already')
+                        ? 'text-red-600'
+                        : 'text-green-600'
+                        }`}
                 >
                     {message}
                 </div>
