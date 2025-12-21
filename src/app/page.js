@@ -134,6 +134,26 @@ export default function Home() {
                     {message}
                 </div>
             )}
+
+            <footer className="mt-12 border-t border-gray-200 pt-8 text-center">
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+                    My Links
+                </h2>
+                <div className="flex flex-col gap-3 text-blue-600">
+                    <a className="hover:underline" href="https://robertmccrary.com" target="_blank" rel="noreferrer">
+                        Portfolio
+                    </a>
+                    <a className="hover:underline" href="https://github.com/RobertLMcCrary" target="_blank" rel="noreferrer">
+                        GitHub
+                    </a>
+                    <a className="hover:underline" href="https://www.linkedin.com/in/robertlmccrary" target="_blank" rel="noreferrer">
+                        LinkedIn
+                    </a>
+                    <a className="hover:underline" href="https://www.instagram.com/robert__mccrary" target="_blank" rel="noreferrer">
+                        Instagram
+                    </a>
+                </div>
+            </footer>
         </div>
     );
 }
